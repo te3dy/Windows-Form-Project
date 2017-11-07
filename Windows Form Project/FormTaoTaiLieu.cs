@@ -10,18 +10,17 @@ using System.Windows.Forms;
 
 namespace Windows_Form_Project
 {
-    public partial class FormMain : Form
+    public partial class FormTaoTaiLieu : Form
     {
-        public FormMain()
+        public FormTaoTaiLieu()
         {
             InitializeComponent();
         }
 
-        private void thêmTàiLiệuToolStripMenuItem_Click(object sender, EventArgs e)
+        private void FormTaoTaiLieu_FormClosing(object sender, FormClosingEventArgs e)
         {
-            FormTaoTaiLieu formTaoTaiLieu = new FormTaoTaiLieu();
-            this.Enabled = false;
-            formTaoTaiLieu.Show();
+            
         }
     }
+
 }
