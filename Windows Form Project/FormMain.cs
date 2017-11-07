@@ -23,5 +23,10 @@ namespace Windows_Form_Project
             this.Enabled = false;
             formTaoTaiLieu.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
