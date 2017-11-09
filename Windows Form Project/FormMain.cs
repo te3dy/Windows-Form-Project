@@ -16,17 +16,5 @@ namespace Windows_Form_Project
         {
             InitializeComponent();
         }
-
-        private void thêmTàiLiệuToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormTaoTaiLieu formTaoTaiLieu = new FormTaoTaiLieu();
-            this.Enabled = false;
-            formTaoTaiLieu.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
